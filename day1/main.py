@@ -25,5 +25,6 @@ while True:
     else:
         break
 
-# output using f-strings makes the code much more readable
-print(f"Your band name could be {city} {pet_name}")
+# output using f-strings makes the code much more readable#
+#print(f"Your band name could be {city} {pet_name}")
+print("Your band name could be " + city + " " + pet_name)
