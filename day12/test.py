@@ -16,6 +16,7 @@ def play(a, b, diff, cheat_mode):
               f"CHEAT MODE ENABLED:\n"
               f"The number is {secret_num}\n"
               f"*******************")
+        
     lives = diff
     is_game_over = False
     victory = False
