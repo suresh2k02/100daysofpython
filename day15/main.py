@@ -1,3 +1,5 @@
+import art
+
 
 MENU = {
     "espresso": {
@@ -25,11 +27,10 @@ MENU = {
     }
 }
 
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
+COIN_VALUES = {
+    "quarter": 0.25,
+    "dime": 0.1,
+    "nickel": 0.05,
+    "penny": 0.01,
 }
-
-# TODO : 4. Check resources sufficient?
 
