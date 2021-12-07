@@ -47,6 +47,7 @@ for i in range(TIME_SPAM):
     if int(weather_data[i]["weather"][0]["id"]) < 700:
         rainy_forecast = True
         # no need to check the rest
+        
         break
 
 if rainy_forecast:
