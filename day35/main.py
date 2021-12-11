@@ -28,6 +28,7 @@ params = {
     "exclude": "current,minutely,daily",
     "appid": OWM_API_KEY
 }
+
 response = requests.get(OWM_API_URL, params=params)
 # a simple error message, at least
 if response.status_code != 200:
