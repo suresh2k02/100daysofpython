@@ -34,4 +34,7 @@ def PostOrd(root):
         PostOrd(root.childleft)
         PostOrd(root.childright)
         print(root.nodedata)
+
 PostOrd(root)
+
+
